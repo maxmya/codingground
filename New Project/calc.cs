@@ -13,27 +13,28 @@ namespace Calc
 				int op = Convert.ToInt32(stringop); 
 				if (op == 6)
 					break;
-				Console.Write ("enter number1  ");
+				Console.Write ("enter num1  ");
 				string stringnum1 = Console.ReadLine ();
-				int num1 = Convert.ToInt32 (stringnum1);
-				Console.Write ("enter number2  ");
+				double num1 = Convert.ToDouble (stringnum1);
+				Console.Write ("enter num2  ");
 				string stringnum2 = Console.ReadLine ();
-				int num2 = Convert.ToInt32 (stringnum2);
+			    double num2 = Convert.ToDouble (stringnum2);
 				if (op == 1)
-					Console.Write (num1 + num2+"\n");
+					Console.Write ((num1 +" + " + num2 +" = " )+ (num1 + num2)+"\n");
 				if(op == 2)
-					Console.Write (num1 - num2+"\n");
+					Console.Write ((num1 +" - " + num2 +" = " )+ (num1 - num2)+"\n");
 				if(op == 3)
-					Console.Write (num1 * num2+"\n");
+					Console.Write ((num1 +" * " + num2 +" = " )+ (num1 * num2)+"\n");
 				if(op == 4)
-					Console.Write (num1 / num2+"\n");
+					Console.Write ((num1 +" / " + num2 +" = " )+ (num1 / num2)+"\n");
 				if(op == 5){
-					int ans = 1;
-					for (int i = 0; i < num2; i++)
+					double ans = 1;
+					for (double i = 0; i < num2; i++)
 						ans *= num1;
-					Console.Write (ans+"\n");
+					Console.Write ((num1 +" ^ " + num2 +" = " )+ (ans)+"\n");
 					}
 			}
 		}
 	}
 }
+  
