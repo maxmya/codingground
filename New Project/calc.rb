@@ -9,20 +9,22 @@ while true do
 	num1 = gets.to_f
 	puts "Enter num2"
 	num2 = gets.to_f
-	if op == 1 
+	case op
+	when 1
    		puts "#{num1} + #{num2} = #{num1 + num2}" 
-	end
-	if op == 2 
+	when 2 
         	puts "#{num1} - #{num2} = #{num1 - num2}"
- 	end
-	if op == 3 
+    	when 3 
     		puts "#{num1} * #{num2} = #{num1 * num2}" 
-	end
-	if op == 4
+	when 4
+	    if num2 != 0
         	puts "#{num1} / #{num2} = #{num1 / num2}" 
-	end
-	if op == 5 
+        else
+            	puts "cannot devide by 0 !"
+        end
+	when 5
     		puts "#{num1} ^ #{num2} = #{num1 ** num2}" 
 	end
 
 end
+
