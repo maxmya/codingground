@@ -19,7 +19,7 @@ elif operation ==2:
 	    print ("A x B = " + str (number_one * number_two) ) 
 elif operation == 3 : 
 	 if number_two != 0:   
-	    print ("A x B = " + str (number_one / number_two)) 
+	    print ("A / B = " + str (number_one / number_two)) 
 	 else:
 	    print ("cannot devide by 0 ")   
 elif  operation ==4:
