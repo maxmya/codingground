@@ -17,4 +17,5 @@ begin
     for n := 0 to 16 do
 	
         writeln(n, '! = ', fact(n));
+        
 end.
