@@ -13,17 +13,16 @@ while true do
    		puts "#{num1} + #{num2} = #{num1 + num2}" 
 	end
 	if op == 2 
-        puts "#{num1} - #{num2} = #{num1 - num2}"
-    end
+        	puts "#{num1} - #{num2} = #{num1 - num2}"
+ 	end
 	if op == 3 
-    	puts "#{num1} * #{num2} = #{num1 * num2}" 
+    		puts "#{num1} * #{num2} = #{num1 * num2}" 
 	end
 	if op == 4
-        puts "#{num1} / #{num2} = #{num1 / num2}" 
+        	puts "#{num1} / #{num2} = #{num1 / num2}" 
 	end
 	if op == 5 
-    	puts "#{num1} ^ #{num2} = #{num1 ** num2}" 
+    		puts "#{num1} ^ #{num2} = #{num1 ** num2}" 
 	end
 
 end
-
